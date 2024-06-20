@@ -5,3 +5,7 @@
 
 ### Landing page of the software
 ![mainFrame.png](Software_Snapshots/mainFrame.png)
+
+### Send Page
+![sendFrame.png](/Software_Snapshots/sendFrame.png)
+![connectedSuccessfully.png](/Software_Snapshots/connectedSuccessfully.png) ![fileChooser.png](/Software_Snapshots/fileChooser.png) 
