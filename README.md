@@ -4,4 +4,4 @@
 # Some snapshots of the software
 
 ### Landing page of the software
-[mainFrame.png](Software_Snapshots/mainFrame.png)
+![mainFrame.png](Software_Snapshots/mainFrame.png)
