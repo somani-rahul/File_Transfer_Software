@@ -8,9 +8,9 @@
 
 ### Send Page
 ![sendFrame.png](/Software_Snapshots/sendFrame.png)
-![](/Software_Snapshots/connectedSuccessfully.png) ![fileChooser.png](/Software_Snapshots/fileChooser.png) 
 
+#### Connection and File choosing
 <p align="center">
   <img src="/Software_Snapshots/connectedSuccessfully.png" alt="connectedSuccessfully.png" width="45%">
-  <img src="/Software_Snapshots/fileChooser.png" alt="Image 2" width="45%">
+  <img src="/Software_Snapshots/fileChooser.png" alt="fileChooser.png" width="45%">
 </p>
