@@ -639,7 +639,7 @@ public class P_FILE extends JFrame implements ActionListener, Runnable, FocusLis
         panel_Creater_right.setBounds(350, 100, 350, 500);
 
         ImageIcon ic = new ImageIcon(ClassLoader.getSystemResource("himanshu.jpg"));
-        Image im = ic.getImage().getScaledInstance(100, 100, Image.SCALE_DEFAULT);
+        Image im = ic.getImage().getScaledInstance(100, 100, Image.SCALE_SMOOTH);
         ImageIcon ic1 = new ImageIcon(im);
         JLabel lbl_pic = new JLabel(ic1);
         lbl_pic.setBounds(120, 30, 100, 100);
@@ -671,11 +671,11 @@ public class P_FILE extends JFrame implements ActionListener, Runnable, FocusLis
         panel_Creater_left.add(lblRD);
         panel_Creater_left.add(lblHandles);
 
-        ImageIcon ic2 = new ImageIcon(ClassLoader.getSystemResource("rahul.jpg"));
-        Image im1 = ic2.getImage().getScaledInstance(100, 100, Image.SCALE_DEFAULT);
+        ImageIcon ic2 = new ImageIcon(ClassLoader.getSystemResource("himanshu.jpg"));
+        Image im1 = ic2.getImage().getScaledInstance(100, 100, Image.SCALE_SMOOTH);
         ImageIcon ic3 = new ImageIcon(im1);
         JLabel lbl_picR = new JLabel(ic3);
-        lbl_picR.setBounds(450, 30, 100, 100);
+        lbl_picR.setBounds(450, 30, 150, 150);
         JLabel lblNameR = new JLabel("Name: Rahul Somani");
         JLabel lblCollegeR = new JLabel("College : S.G.I");
         JLabel lblBranchR = new JLabel("Branch : C.S.E");
