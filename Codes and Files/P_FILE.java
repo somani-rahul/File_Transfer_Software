@@ -635,8 +635,8 @@ public class P_FILE extends JFrame implements ActionListener, Runnable, FocusLis
         panel_Creater_left.setBackground(c4);
         panel_Creater_right.setBackground(c3);
         panel_Creater_top.setBounds(0, 0, 700, 150);
-        panel_Creater_left.setBounds(0, 100, 340, 500);
-        panel_Creater_right.setBounds(350, 100, 250, 500);
+        panel_Creater_left.setBounds(0, 100, 350, 500);
+        panel_Creater_right.setBounds(350, 100, 350, 500);
 
         ImageIcon ic = new ImageIcon(ClassLoader.getSystemResource("himanshu.jpg"));
         Image im = ic.getImage().getScaledInstance(100, 100, Image.SCALE_DEFAULT);
@@ -676,18 +676,18 @@ public class P_FILE extends JFrame implements ActionListener, Runnable, FocusLis
         ImageIcon ic3 = new ImageIcon(im1);
         JLabel lbl_picR = new JLabel(ic3);
         lbl_picR.setBounds(450, 30, 100, 100);
-        JLabel lblNameR = new JLabel("Name : Rahul Somani");
+        JLabel lblNameR = new JLabel("Name: Rahul Somani");
         JLabel lblCollegeR = new JLabel("College : S.G.I");
         JLabel lblBranchR = new JLabel("Branch : C.S.E");
         JLabel lblLocationR = new JLabel("Location : SIKAR");
         JLabel lblRDR = new JLabel("Roll In Development : BACKEND");
         JLabel lblHandlesR = new JLabel("Handles : @rahul__somani");
-        lblNameR.setBounds(360, 195, 300, 50);
-        lblCollegeR.setBounds(360, 245, 300, 50);
-        lblBranchR.setBounds(360, 295, 300, 50);
-        lblLocationR.setBounds(360, 345, 300, 50);
-        lblRDR.setBounds(360, 395, 300, 50);
-        lblHandlesR.setBounds(360, 445, 300, 50);
+        lblNameR.setBounds(20, 100, 300, 50);
+        lblCollegeR.setBounds(20, 150, 300, 50);
+        lblBranchR.setBounds(20, 200, 300, 50);
+        lblLocationR.setBounds(20, 250, 300, 50);
+        lblRDR.setBounds(20, 300, 300, 50);
+        lblHandlesR.setBounds(20, 350, 300, 50);
 
         lblNameR.setForeground(Color.WHITE);
         lblCollegeR.setForeground(Color.WHITE);
@@ -703,6 +703,7 @@ public class P_FILE extends JFrame implements ActionListener, Runnable, FocusLis
         panel_Creater_right.add(lblLocationR);
         panel_Creater_right.add(lblRDR);
         panel_Creater_right.add(lblHandlesR);
+
         frm6.add(panel_Creater_top);
         frm6.add(panel_Creater_left);
         frm6.add(panel_Creater_right);
