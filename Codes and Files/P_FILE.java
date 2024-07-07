@@ -675,7 +675,7 @@ public class P_FILE extends JFrame implements ActionListener, Runnable, FocusLis
         Image im1 = ic2.getImage().getScaledInstance(100, 100, Image.SCALE_SMOOTH);
         ImageIcon ic3 = new ImageIcon(im1);
         JLabel lbl_picR = new JLabel(ic3);
-        lbl_picR.setBounds(450, 30, 150, 150);
+        lbl_picR.setBounds(450, 30, 100, 100);
         JLabel lblNameR = new JLabel("Name: Rahul Somani");
         JLabel lblCollegeR = new JLabel("College : S.G.I");
         JLabel lblBranchR = new JLabel("Branch : C.S.E");
