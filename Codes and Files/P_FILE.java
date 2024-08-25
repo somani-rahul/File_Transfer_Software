@@ -653,7 +653,7 @@ public class P_FILE extends JFrame implements ActionListener, Runnable, FocusLis
         lblCollege.setBounds(20, 150, 300, 50);
         lblBranch.setBounds(20, 200, 300, 50);
         lblLocation.setBounds(20, 250, 300, 50);
-        lblRD.setBounds(20, 300, 300, 50);
+        lblRD.setBounds(20, 300, 300, 50); 
         lblHandles.setBounds(20, 350, 300, 50);
 
         lblName.setForeground(Color.WHITE);
