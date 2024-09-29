@@ -1019,6 +1019,8 @@ public class P_FILE extends JFrame implements ActionListener, Runnable, FocusLis
     public void actionPerformed(ActionEvent evt) {
     }
 
+    // some garbage code ^_^
+
     // String s=evt.getActionCommand();
 
     // // J_Chooser=new JFileChooser();
